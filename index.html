@@ -5,11 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
-    <title>Document</title>
+    <title>Firebase</title>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/sytle.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
   <body>
     <div id="app">
-      <button id="button-login">Login with Google</button>
+      
+      <button id="button-login" >Login with Google</button>
       <button id="button-logout" class="hidden">Logout</button>
       <form id="todo-form" class="hidden">
         <div id="user-info"></div>
@@ -20,7 +25,7 @@
           autocomplete="off"
         /-->
 
-        <br><br>
+        <br><br><br>
 
         <center>
           <iframe width="350" height="200" src="https://www.youtube.com/embed/KwVwcVbzxlo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -57,4 +62,5 @@
       firebase.initializeApp(firebaseConfig);
     </script>
     <script src="app.js" type="module"></script>
+     <script type="text/javascript" src="js/materialize.min.js"></script>
   </body>
